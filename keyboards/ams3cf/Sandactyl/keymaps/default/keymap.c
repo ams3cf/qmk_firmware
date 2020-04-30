@@ -48,23 +48,23 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 // Light LEDs 6 to 9 and 12 to 15 red when caps lock is active. Hard to ignore!
 const rgblight_segment_t PROGMEM rgb_cll[] = RGBLIGHT_LAYER_SEGMENTS(
-    {1, 60, HSV_RED}       // Light 4 LEDs, starting with LED 6
+    {1, 15, HSV_RED}
 );
 // Light LEDs 9 & 10 in cyan when keyboard layer 1 is active
 const rgblight_segment_t PROGMEM rgb_1[] = RGBLIGHT_LAYER_SEGMENTS(
-    {1, 60, HSV_BLUE}       // Light 4 LEDs, starting with LED 6
+    {1, 15, HSV_CYAN}
 );
 // Light LEDs 11 & 12 in purple when keyboard layer 2 is active
 const rgblight_segment_t PROGMEM rgb_2[] = RGBLIGHT_LAYER_SEGMENTS(
-    {1, 60, HSV_ORANGE}      // Light 4 LEDs, starting with LED 6
+    {1, 15, HSV_ORANGE} 
 );
 
 const rgblight_segment_t PROGMEM rgb_3[] = RGBLIGHT_LAYER_SEGMENTS(
-    {1, 60, HSV_PURPLE}       // Light 4 LEDs, starting with LED 6
+    {1, 15, HSV_PURPLE}
 );
 
 const rgblight_segment_t PROGMEM rgb_4[] = RGBLIGHT_LAYER_SEGMENTS(
-    {1, 60, HSV_GREEN}       // Light 4 LEDs, starting with LED 6
+    {1, 15, HSV_GREEN}  
 );
 
 // Now define the array of layers. Later layers take precedence
